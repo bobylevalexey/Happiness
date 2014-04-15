@@ -7,6 +7,7 @@ div#content {
 	background-color: #FFF;
 	z-index: 3;
 	box-shadow: 1px 1px 10px black;
+    box-shadow: 2px 7px 10px black;
 }
 
 #content img {

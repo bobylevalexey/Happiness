@@ -46,7 +46,7 @@ div#menu_left	 {
     div#menu_left a {
         display: inline;
         float: right;
-        box-shadow: 2px 5px 10px black;
+        box-shadow: 2px 7px 10px black;
     }
 
         div#menu_left a.home {
@@ -92,13 +92,13 @@ div#menu_right {
 
         div#menu_right a.contact {
             background-color: #FF8C00;
-            height: 50px;
+            height: 55px;
             margin-top: 25px;
         }
 
         div#menu_right a.about_us {
             background-color: #a670c6;
-            height: 75px;
+            height: 80px;
         }
 
 #header img {
