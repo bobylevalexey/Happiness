@@ -1,17 +1,16 @@
 $(function() {
-   // $('.menu a').css({'marginTop':'5px'});
+   $('.menu a').css({'marginBottom':'-5px'});
 
 
-    // $('.menu > li').hover(
-    // function () {
-        // $('a',$(this)).stop().animate({
-            // 'marginTop':'0px'
-        // },200);
-    // },
-    // function () {
-        // $('a',$(this)).stop().animate({
-            // 'marginTop':'5px'
-        // },200);
-    }
-);
+    $('.menu').hover(
+    function () {
+        $('a',$(this)).stop().animate({
+            'marginBottom':'0px'
+        },200);
+    },
+    function () {
+        $('a',$(this)).stop().animate({
+            'marginBottom':'5px'
+        },200);
+    })
 });

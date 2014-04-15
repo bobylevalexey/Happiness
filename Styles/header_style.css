@@ -1,0 +1,109 @@
+body {
+    margin: 0px 2px;
+    padding: 0px;
+    background: url(../Images/bg.png) repeat;
+}
+
+div#header {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.menu a {
+    display: block;
+    float: left;
+    width: 140px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin: 0px 1px;
+
+}
+
+    div.menu a span {
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px black;
+    }
+
+div#menu_left	 {
+    position: absolute;
+    left: 135px;
+    top: 92px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index: 2;
+}
+
+    div#menu_left a {
+        display: inline;
+        float: right;
+        box-shadow: 2px 5px 10px black;
+    }
+
+        div#menu_left a.home {
+            z-index: 3;
+            background-color: #FF3030;
+            height: 80px;
+        }
+
+        div#menu_left a.service {
+            background-color: #FFCC01;
+            height: 55px;
+            margin-top: 25px;
+        }
+
+        div#menu_left a.feed {
+            background-color: #77c816;
+            margin-top: 50px;
+            z-index: 1200;
+        }
+
+
+div#menu_right {
+    position: absolute;
+    left: 804px;
+    top: 92px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index: 2;
+}
+
+    div#menu_right a {
+        display: inline;
+        float: left;
+        box-shadow: -2px 5px 10px black;
+    }
+
+
+        div#menu_right a.review {
+            background-color: #0096ff;
+            margin-top: 50px;
+        }
+
+        div#menu_right a.contact {
+            background-color: #FF8C00;
+            height: 50px;
+            margin-top: 25px;
+        }
+
+        div#menu_right a.about_us {
+            background-color: #a670c6;
+            height: 75px;
+        }
+
+#header img {
+    position: absolute;
+    top: 0px;
+    left: 568px;
+    width: 229px;
+}
