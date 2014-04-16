@@ -4,7 +4,7 @@ div#content {
     left: 138px;
     width: 1081px;
     border: 6px solid #FF8C00;
-    background-color: #FFF;
+    background-color: #FFFACD;
     z-index: 3;
     box-shadow: 1px 1px 10px black;
     margin-bottom: 50px;
@@ -100,20 +100,23 @@ div#map {
 }
 
 div.text_contact {
-    color: #000;
+    color: #8B0000;
     font-size: 20px;
     margin: 0px;
     float: left;
     padding-left: 20px;
     width: 361px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 div.text_contact b {
-    color: #FF3300;
+    font-weight: 500;
+    color: #EE2C2C;
     font-size: 23px;
 }
 
 span.contact_title {
+    color: #DF0000;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }

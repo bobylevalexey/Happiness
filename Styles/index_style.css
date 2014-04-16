@@ -4,7 +4,7 @@ div#content {
 	left: 138px;
 	width: 1081px;
 	border: 6px solid #FF3030;
-	background-color: #FFF;
+	background-color: #FDF5E6;
 	z-index: 3;
 	box-shadow: 1px 1px 10px black;
     margin-bottom: 50px;
@@ -12,6 +12,9 @@ div#content {
 
 #content img {
 	width: 100%;
+    /*margin: 30px;*/
+    /*margin-left: 10%;*/
+    /*border: 2px solid red;*/
 }
 
 div.phone {
