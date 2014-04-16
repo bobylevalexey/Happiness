@@ -1,0 +1,119 @@
+div#content {
+    position: absolute;
+    top: 190px;
+    left: 138px;
+    width: 1081px;
+    border: 6px solid #FF8C00;
+    background-color: #FFF;
+    z-index: 3;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 50px;
+}
+
+#content img {
+    width: 100%;
+}
+
+div.phone {
+    position: absolute;
+    top: 15px;
+    letter-spacing: 1px;
+    left: 270px;
+    text-align: center;
+}
+
+div.phone span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+div.phone span:first-child {
+    letter-spacing: 2px;
+}
+
+div.phone span:last-child {
+    letter-spacing: 1px;
+}
+
+div.phone button {
+    background: #0096ff;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 24px;
+    border: 0px;
+}
+
+div.phone button:hover {
+    background: #1874CD;
+}
+
+div.phone a {
+    color: #104E8B;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.address {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 250px;
+}
+
+div.address span {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#zzz {
+    width: 140px;
+    height: 10px;
+    background: #FF3030;
+    position: absolute;
+    top: 180px;
+    left: 136px;
+    z-index: 5;
+}
+
+#zzz {
+    width: 140px;
+    height: 10px;
+    background: #FF8C00;
+    position: absolute;
+    top: 180px;
+    left: 947px;
+    z-index: 5;
+}
+
+div#menu_right a.contact {
+    background-color: #FF8C00;
+    height: 55px;
+    margin-top: 25px;
+    z-index: 100;
+}
+
+div#map {
+    float: right;
+    width: 680px;
+    height: 480px;
+    padding: 10px;
+}
+
+div.text_contact {
+    color: #000;
+    font-size: 20px;
+    margin: 0px;
+    float: left;
+    padding-left: 20px;
+    width: 361px;
+    margin-top: 50px;
+}
+
+div.text_contact b {
+    color: #FF3300;
+    font-size: 23px;
+}
+
+span.contact_title {
+    font-size: 30px;
+}
