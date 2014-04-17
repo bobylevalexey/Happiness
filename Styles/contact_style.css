@@ -116,3 +116,14 @@ span.contact_title {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
+
+div.after {
+    position: absolute;
+    height: 73px;
+    top: 25px;
+    left: 276px;
+    width: 7px;
+    display: block;
+    background: #FF8C00;
+    box-shadow: 2px 5px 4px black;
+}

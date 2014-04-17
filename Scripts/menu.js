@@ -16,6 +16,11 @@ $(function() {
                     topA = '45px';
                     break;
             }
+            if ($(this).attr('class') == 'contact') {
+                $('.after').stop().animate({
+                    'marginTop' : '-5px'
+                }, 200);
+            }
             $(this).stop().animate({
                 'marginTop':topA
             },200);
@@ -34,6 +39,12 @@ $(function() {
                 case 'review' :
                     topA = '50px';
                     break;
+            }
+
+            if ($(this).attr('class') == 'contact') {
+                $('.after').stop().animate({
+                    'marginTop' : '0px'
+                }, 200);
             }
             $(this).stop().animate({
                 'marginTop':topA
